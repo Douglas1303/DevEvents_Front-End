@@ -59,9 +59,6 @@ label span:nth-child(3){
         height: 100vh;
         text-align: center;
         color: white;
-        /* background: url('../img/paginaInicial.png') no-repeat bottom center scroll; */
-        /* background-position: 30% 45%;
-        background-size: cover; */
         }
 
         .colorLetter{
@@ -70,6 +67,11 @@ label span:nth-child(3){
 
         .colorBlack{
             color:black;
+            background-color: #e3f2fd;
+        }
+
+        .colorDiv{
+            background-color: #e3f2fd;
         }
 
         input[type="email"] {
@@ -87,7 +89,7 @@ header {
     background: url('../img/paginaInicial.png') no-repeat bottom center scroll;
     background-position: 51% 10%;
     background-size: cover;
-    height: 60%;
+    height: 85%;
 }
 
 .custom-p {
