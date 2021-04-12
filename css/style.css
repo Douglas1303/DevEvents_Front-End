@@ -61,8 +61,15 @@ label span:nth-child(3){
         color: white;
         }
 
-        .colorLetter{
+        .colorLetter h3{
             color: white;
+            text-shadow: 3px 3px 2px rgb(46, 134, 185);
+        }
+
+        .hero-content{
+            text-transform: uppercase;
+            font-size: 30px;
+            text-shadow: 3px 3px 2px #333;
         }
 
         .colorBlack{
@@ -84,15 +91,26 @@ label span:nth-child(3){
             border-top: 0px;
         }
 
-header {
-    width: 100%;
-    background: url('../img/paginaInicial.png') no-repeat bottom center scroll;
-    background-position: 51% 10%;
+.hero{
+    background-image: url(../img/paginaInicial.png);
+    height: 500px;
+    background-position: right center;
+    background-attachment: fixed;
     background-size: cover;
-    height: 85%;
+    background-repeat: repeat;
 }
 
 .custom-p {
     text-align: center;
     margin: 20px;
+}
+
+.rodape{
+    background:#6d6c68; 
+    height: 80px;
+     color: white; 
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
 }
